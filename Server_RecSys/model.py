@@ -2,7 +2,11 @@ import pandas as pd
 import numpy as np
 import mysql.connector
 from sklearn.metrics.pairwise import cosine_similarity, linear_kernel
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
+
 
 def get_recommendations(user, zone):
     df_user = pd.read_csv('Order_history.csv')
@@ -16,10 +20,10 @@ def get_recommendations(user, zone):
     df = df_user.merge(df_rest, on  = "rest_id", how= "left").sort_values(by= "order_id")
     
     # Get JDBC connection details from environment variables
-    jdbc_host = os.environ.get('MYSQL_HOST')
-    jdbc_db = os.environ.get('MYSQL_DB')
-    jdbc_username = os.environ.get('MYSQL_USERNAME')
-    jdbc_password = os.environ.get('MYSQL_PASSWORD')
+    jdbc_host = os.getenv('MYSQL_HOST')
+    jdbc_db = os.getenv('MYSQL_DB')
+    jdbc_username = os.getenv('MYSQL_USERNAME')
+    jdbc_password = os.getenv('MYSQL_PASSWORD')
     
     # Replace the placeholders with your MySQL connection details
     connection = mysql.connector.connect(

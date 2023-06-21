@@ -44,10 +44,10 @@ services:
         - mock
     restart: "on-failure"
     environment:
-      - MYSQL_JDBC_URL='jdbc:mysql://localhost:3306/flink'
-      - MYSQL_TABLE_NAME='pending_orders_table'
-      - MYSQL_USERNAME='root'
-      - MYSQL_PASSWORD='sw23'
+      - MYSQL_JDBC_URL=jdbc:mysql://localhost:3306/flink
+      - MYSQL_TABLE_NAME=pending_orders_table
+      - MYSQL_USERNAME=root
+      - MYSQL_PASSWORD=sw23
 
 
   server:
@@ -58,7 +58,7 @@ services:
       - flink
     restart: "on-failure"
     environment:
-      - MYSQL_HOST='localhost'
-      - MYSQL_DB='flink'
-      - MYSQL_USERNAME='root'
-      - MYSQL_PASSWORD='sw23'
+      - MYSQL_HOST=localhost
+      - MYSQL_DB=flink
+      - MYSQL_USERNAME=root
+      - MYSQL_PASSWORD=sw23

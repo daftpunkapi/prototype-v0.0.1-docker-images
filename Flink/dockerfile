@@ -4,7 +4,9 @@ FROM python:3.9-slim-buster
 RUN apt-get update && apt-get install -y default-jre
 
 COPY requirements.txt /app/
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r /app/requirements.txt
+
 
 COPY live_flink.py /app/
 COPY flink-sql-connector-kafka-1.17.1.jar /app/

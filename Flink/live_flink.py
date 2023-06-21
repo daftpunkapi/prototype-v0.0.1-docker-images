@@ -2,7 +2,10 @@
 from pyflink.table import EnvironmentSettings, TableEnvironment
 from pyflink.table.expressions import *
 from pyflink.table.table import Table
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 ##### t_env is a Table Environment - the entry point and central context for creating Table and SQL API programs
 ##### execute_sql() : Executes the given single statement, and return the execution result (status) -> OK or error.
@@ -37,10 +40,10 @@ def log_processing():
     # tbl.execute().print()
     
     # Get JDBC connection details from environment variables
-    jdbc_url = os.environ.get('MYSQL_JDBC_URL')
-    jdbc_table_name = os.environ.get('MYSQL_TABLE_NAME')
-    jdbc_username = os.environ.get('MYSQL_USERNAME')
-    jdbc_password = os.environ.get('MYSQL_PASSWORD')
+    jdbc_url = os.getenv('MYSQL_JDBC_URL')
+    jdbc_table_name = os.getenv('MYSQL_TABLE_NAME')
+    jdbc_username = os.getenv('MYSQL_USERNAME')
+    jdbc_password = os.getenv('MYSQL_PASSWORD')
     
     sink_mysql = f"""
         CREATE TABLE pending_orders_table (
