@@ -1,0 +1,101 @@
+rest_id,rest_name,zone,rating,cuisine,budget
+6487f4c6fc13ae161d9008e3,Durgan-Haag,North,1.4,mexican,5
+6487f4c6fc13ae161d9008e4,Jacobson Group,South,2.6,indian,5
+6487f4c6fc13ae161d9008e5,"Hintz, Harris and Beer",South,3.6,italian,1
+6487f4c6fc13ae161d9008e6,Kling LLC,West,1.2,italian,3
+6487f4c6fc13ae161d9008e7,Beer-Kuhic,North,4.7,italian,5
+6487f4c6fc13ae161d9008e8,Langworth and Sons,South,2.2,italian,1
+6487f4c6fc13ae161d9008e9,"Rippin, Aufderhar and Yundt",West,2.4,indian,1
+6487f4c6fc13ae161d9008ea,Nikolaus Inc,West,2,indian,5
+6487f4c6fc13ae161d9008eb,"O'Connell, Rowe and McKenzie",West,4.4,indian,2
+6487f4c6fc13ae161d9008ec,Oberbrunner-Kulas,West,2.2,indian,1
+6487f4c6fc13ae161d9008ed,DuBuque-Mitchell,West,1.5,indian,4
+6487f4c6fc13ae161d9008ee,Dibbert-Leannon,West,4.3,italian,5
+6487f4c6fc13ae161d9008ef,Terry-Lebsack,West,1.7,mexican,2
+6487f4c6fc13ae161d9008f0,"Becker, Crona and Schimmel",South,1.4,mexican,3
+6487f4c6fc13ae161d9008f1,Strosin-Davis,East,1.3,indian,2
+6487f4c6fc13ae161d9008f2,"Little, Lowe and Robel",South,3.2,mexican,5
+6487f4c6fc13ae161d9008f3,Witting and Sons,South,2.2,indian,1
+6487f4c6fc13ae161d9008f4,Price and Sons,South,1.7,italian,4
+6487f4c6fc13ae161d9008f5,McClure and Sons,West,2.5,italian,4
+6487f4c6fc13ae161d9008f6,Langworth and Sons,North,3.9,mexican,1
+6487f4c6fc13ae161d9008f7,Balistreri and Sons,North,3.1,mexican,1
+6487f4c6fc13ae161d9008f8,"Ferry, Willms and Parisian",South,4.2,italian,2
+6487f4c6fc13ae161d9008f9,Wolff Inc,East,3.3,italian,4
+6487f4c6fc13ae161d9008fa,Ebert-Little,North,2.3,italian,1
+6487f4c6fc13ae161d9008fb,"Veum, Turner and Kohler",West,3.6,italian,4
+6487f4c6fc13ae161d9008fc,Gorczany and Sons,North,3.9,italian,1
+6487f4c6fc13ae161d9008fd,Schroeder Group,East,1.4,mexican,1
+6487f4c6fc13ae161d9008fe,"Balistreri, Botsford and Ryan",South,2.4,indian,2
+6487f4c6fc13ae161d9008ff,Jast-Sanford,North,1.3,mexican,5
+6487f4c6fc13ae161d900900,Volkman and Sons,South,3.2,indian,4
+6487f4c6fc13ae161d900901,Pollich-Gleichner,East,4.4,italian,4
+6487f4c6fc13ae161d900902,"Gutmann, Ziemann and Gerhold",North,2.2,italian,5
+6487f4c6fc13ae161d900903,Donnelly Inc,North,1.4,indian,4
+6487f4c6fc13ae161d900904,Rath-Lang,North,2.6,indian,2
+6487f4c6fc13ae161d900905,Schulist-Deckow,East,3.7,indian,2
+6487f4c6fc13ae161d900906,Hamill-Bergnaum,North,4.4,italian,3
+6487f4c6fc13ae161d900907,"Miller, Ernser and Witting",West,4.3,italian,2
+6487f4c6fc13ae161d900908,Crist LLC,West,3.4,indian,3
+6487f4c6fc13ae161d900909,Mayert-Kunze,North,2,indian,5
+6487f4c6fc13ae161d90090a,Labadie-Kihn,South,2.2,indian,4
+6487f4c6fc13ae161d90090b,Zemlak-Predovic,East,2,italian,1
+6487f4c6fc13ae161d90090c,Olson Inc,West,2.7,mexican,3
+6487f4c6fc13ae161d90090d,"Mueller, Torphy and Smith",North,2.6,mexican,2
+6487f4c6fc13ae161d90090e,Mosciski-Bradtke,North,4.7,mexican,4
+6487f4c6fc13ae161d90090f,Wisoky and Sons,South,4.6,mexican,2
+6487f4c6fc13ae161d900910,Altenwerth-Farrell,East,1.6,indian,3
+6487f4c6fc13ae161d900911,"Schuppe, Fisher and Ward",South,4.8,indian,2
+6487f4c6fc13ae161d900912,Parisian Group,East,3.3,italian,1
+6487f4c6fc13ae161d900913,McLaughlin-Bergnaum,North,1.7,mexican,4
+6487f4c6fc13ae161d900914,"Braun, Glover and Funk",East,3.9,mexican,4
+6487f4c6fc13ae161d900915,"Frami, McGlynn and VonRueden",North,1.8,indian,3
+6487f4c6fc13ae161d900916,Sauer Inc,West,3.1,mexican,2
+6487f4c6fc13ae161d900917,"Wilkinson, Towne and O'Reilly",East,4.8,italian,3
+6487f4c6fc13ae161d900918,Jakubowski Group,South,2.9,indian,2
+6487f4c6fc13ae161d900919,"Gerhold, Swaniawski and Brakus",North,2.3,mexican,2
+6487f4c6fc13ae161d90091a,"Altenwerth, Hettinger and Christiansen",East,4.8,indian,1
+6487f4c6fc13ae161d90091b,"Becker, Schuster and Shields",East,4.9,mexican,1
+6487f4c6fc13ae161d90091c,"Ruecker, Powlowski and Langosh",South,3.2,indian,3
+6487f4c6fc13ae161d90091d,"Towne, King and Turner",South,2.8,mexican,2
+6487f4c6fc13ae161d90091e,Sporer-Heller,North,2.6,indian,3
+6487f4c6fc13ae161d90091f,"Daugherty, Moen and Koch",North,1.4,indian,1
+6487f4c6fc13ae161d900920,"Senger, Nicolas and Schulist",North,4.5,mexican,4
+6487f4c6fc13ae161d900921,"Boyle, Bernier and Walter",West,2.7,italian,4
+6487f4c6fc13ae161d900922,Towne and Sons,West,2.5,mexican,2
+6487f4c6fc13ae161d900923,Orn-Nolan,South,1.4,italian,3
+6487f4c6fc13ae161d900924,"Bergnaum, Monahan and Williamson",North,1.3,mexican,3
+6487f4c6fc13ae161d900925,Blick-Gleichner,South,2.3,italian,3
+6487f4c6fc13ae161d900926,"Jones, Johns and Schmeler",West,1.3,indian,5
+6487f4c6fc13ae161d900927,Hills Inc,North,2.4,mexican,1
+6487f4c6fc13ae161d900928,Homenick Inc,West,1.2,mexican,3
+6487f4c6fc13ae161d900929,Mertz-Bahringer,South,4.7,mexican,5
+6487f4c6fc13ae161d90092a,Swift LLC,East,4.7,indian,5
+6487f4c6fc13ae161d90092b,Wisozk-Stamm,North,1.8,mexican,4
+6487f4c6fc13ae161d90092c,Homenick-Heidenreich,East,2.5,indian,3
+6487f4c6fc13ae161d90092d,"Schmitt, Schowalter and Kuhn",North,2.9,indian,2
+6487f4c6fc13ae161d90092e,Treutel Group,North,4.8,indian,1
+6487f4c6fc13ae161d90092f,"Torp, Gusikowski and Bins",South,4.2,mexican,4
+6487f4c6fc13ae161d900930,Bruen and Sons,East,2.8,mexican,3
+6487f4c6fc13ae161d900931,Mosciski LLC,East,1.7,mexican,2
+6487f4c6fc13ae161d900932,Jones LLC,South,2,indian,2
+6487f4c6fc13ae161d900933,Kuphal-Kreiger,West,4.2,mexican,2
+6487f4c6fc13ae161d900934,Dickens Group,East,1.7,indian,5
+6487f4c6fc13ae161d900935,Bednar-Beahan,East,4,indian,1
+6487f4c6fc13ae161d900936,Daugherty LLC,East,5,mexican,4
+6487f4c6fc13ae161d900937,Rohan and Sons,West,4.6,indian,5
+6487f4c6fc13ae161d900938,"Kuhn, West and Mayer",East,1.5,italian,5
+6487f4c6fc13ae161d900939,Bednar LLC,West,3.4,mexican,3
+6487f4c6fc13ae161d90093a,Volkman Group,West,1.4,italian,5
+6487f4c6fc13ae161d90093b,Tromp-Boehm,South,1.5,indian,3
+6487f4c6fc13ae161d90093c,"Grady, Purdy and Christiansen",West,3.5,indian,2
+6487f4c6fc13ae161d90093d,Towne Inc,East,2.6,italian,4
+6487f4c6fc13ae161d90093e,Hills-Pollich,East,1.1,indian,4
+6487f4c6fc13ae161d90093f,"Pfeffer, Bosco and Rowe",East,3.9,italian,1
+6487f4c6fc13ae161d900940,"Weimann, Gusikowski and Stracke",East,4.3,italian,3
+6487f4c6fc13ae161d900941,"Sipes, Kshlerin and Kuhlman",West,4.2,indian,1
+6487f4c6fc13ae161d900942,Beatty-Stoltenberg,East,4.9,italian,5
+6487f4c6fc13ae161d900943,Grant-Deckow,South,1.1,indian,2
+6487f4c6fc13ae161d900944,"Kling, Leuschke and Bechtelar",South,1.8,indian,4
+6487f4c6fc13ae161d900945,Brakus and Sons,South,5,indian,5
+6487f4c6fc13ae161d900946,"O'Kon, Rosenbaum and Walter",West,1.7,indian,3

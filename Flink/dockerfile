@@ -1,0 +1,16 @@
+FROM python:3.9-slim-buster
+
+# Install Java
+RUN apt-get update && apt-get install -y default-jre
+
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+COPY live_flink.py /app/
+COPY flink-sql-connector-kafka-1.17.1.jar /app/
+COPY flink-connector-jdbc-3.1.0-1.17.jar /app/
+COPY mysql-connector-j-8.0.32.jar /app/
+
+WORKDIR /app
+
+CMD [ "python", "./live_flink.py" ]
